@@ -49,18 +49,17 @@
 ### Tool 1
 
 - **Tool name:** [Proposed verb-object name.]
-- **Tool category:** [information retrieval, calculation and data processing, AI interpretation and generation, or recording and business action]
+- **Input:** [replace with a input name listed above]
+- **Output:** [replace with a output name listed above]
 - **Implementation Route:** [file operations, functions/scripts, database queries, and web API calls]
 - **Integration approach:** [direct integration, or MCP integration]
 - **Role in this task:** [What the tool does with which inputs and what result it returns or state it changes. Identify the intended service or model capability; the provider may be "to be selected."]
-
-*Copy the Tool block as needed. For a fully manual task with no agent tool, use `None — performed by [role]` for Tool name, replacing the role prompt, and `Not applicable — manual task` for Tool type. Describe the person's work under Role in this task. If supporting software is used manually, identify it and explain that use.*
-
-## 5. Timeout and Retry Limits
-
-*For L1 and L2 tasks, specify finite limits with units. The task timeout covers the whole run, including retries and waiting. A retry is an additional attempt after the first: 2 retries allows at most 3 attempts. Success ends the task; reaching the timeout stops further attempts.*
-
 - **Task timeout:** [Maximum total elapsed time for one task run, with units. For L0, state a human response deadline instead, such as one business day after assignment.]
 - **Maximum retries:** [Nonnegative whole number of additional attempts. Use 0 if retries are not permitted. For L0, write "Not applicable — manual task."]
 - **Retry only when:** [Conditions that permit another attempt and any waiting interval. For work that changes records or sends messages, explain how retries avoid duplicates; hand off if the action's outcome is uncertain. Write "Not applicable" for manual tasks or when retries are 0.]
 - **On timeout, exhausted retries, or an error that cannot be retried:** [State the status or evidence recorded and the exception task or person receiving the case. Do not continue as if the task succeeded.]
+
+*Copy the Tool block as needed. For a fully manual task, you may still need to retrieve the information and hand it to human and allow updates from human, depending on your manual task context.*
+
+
+
