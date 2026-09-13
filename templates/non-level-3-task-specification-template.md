@@ -53,7 +53,7 @@
 - **Output:** [replace with a output name listed above]
 - **Implementation Route:** [file operations, functions/scripts, database queries, and web API calls]
 - **Integration approach:** [direct integration, or MCP integration]
-- **Role in this task:** [What the tool does with which inputs and what result it returns or state it changes. Identify the intended service or model capability; the provider may be "to be selected."]
+- **Role in this task:** [What the tool does with which inputs and what result it returns or state it changes.]
 - **Task timeout:** [Maximum total elapsed time for one task run, with units. For L0, state a human response deadline instead, such as one business day after assignment.]
 - **Maximum retries:** [Nonnegative whole number of additional attempts. Use 0 if retries are not permitted. For L0, write "Not applicable — manual task."]
 - **Retry only when:** [Conditions that permit another attempt and any waiting interval. For work that changes records or sends messages, explain how retries avoid duplicates; hand off if the action's outcome is uncertain. Write "Not applicable" for manual tasks or when retries are 0.]
