@@ -49,7 +49,9 @@
 ### Tool 1
 
 - **Tool name:** [Proposed verb-object name.]
-- **Tool type:** [For example: Python script, pretrained model, API request, database query, or language-model call with a predefined prompt.]
+- **Tool category:** [information retrieval, calculation and data processing, AI interpretation and generation, or recording and business action]
+- **Implementation Route:** [file operations, functions/scripts, database queries, and web API calls]
+- **Integration approach:** [direct integration, or MCP integration]
 - **Role in this task:** [What the tool does with which inputs and what result it returns or state it changes. Identify the intended service or model capability; the provider may be "to be selected."]
 
 *Copy the Tool block as needed. For a fully manual task with no agent tool, use `None — performed by [role]` for Tool name, replacing the role prompt, and `Not applicable — manual task` for Tool type. Describe the person's work under Role in this task. If supporting software is used manually, identify it and explain that use.*
