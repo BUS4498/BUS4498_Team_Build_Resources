@@ -9,6 +9,16 @@
 task_id: "[Exact workflow task ID]"
 task_name: "[Exact workflow task name]"
 task_owner: "[Person or role accountable for this task]"
+
+# Agent Inference Configuration
+Provider: "Groq"
+Model: "[Exact supported API model ID. See https://console.groq.com/settings/limits]"
+Role: >-
+  Interpret supplied evidence, select the next permitted
+  subtask, and produce the evidence-backed assessment.
+Maximum inference requests per task run: "[Whole-number limit.]"
+On inference failure or exhausted limits: >-
+  Record the unresolved status and hand the case to the student.
 ```
 
 ## 1. Task Goal
