@@ -13,12 +13,9 @@ task_owner: "[Person or role accountable for this task]"
 # Agent Inference Configuration
 Provider: "Groq"
 Model: "[Exact supported API model ID. See https://console.groq.com/settings/limits]"
-Role: >-
-  Interpret supplied evidence, select the next permitted
-  subtask, and produce the evidence-backed assessment.
+Role: [permitted subtasks the model supports]
 Maximum inference requests per task run: "[Whole-number limit.]"
-On inference failure or exhausted limits: >-
-  Record the unresolved status and hand the case to the student.
+On inference failure or exhausted limits: Record the unresolved status and hand the case to [human role].
 ```
 
 ## 1. Task Goal
