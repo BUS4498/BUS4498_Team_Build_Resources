@@ -11,8 +11,8 @@ task_name: "[Exact workflow task name]"
 task_owner: "[Person or role accountable for this task]"
 
 # Agent Inference Configuration
-Provider: "Groq"
-Model: "[Exact supported API model ID. See https://console.groq.com/settings/limits]"
+Provider: [e.g., Groq, OpenAI, Claude, Google Gemini]
+Model: "[Exact supported API model ID.]"
 Role: [permitted subtasks the model supports]
 Maximum inference requests per task run: "[Whole-number limit.]"
 On inference failure or exhausted limits: Record the unresolved status and hand the case to [human role].
